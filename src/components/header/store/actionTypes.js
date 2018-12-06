@@ -1,0 +1,1 @@
+export const GET_LIST = 'header/GET_LISt'
