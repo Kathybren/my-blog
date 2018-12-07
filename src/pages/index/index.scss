@@ -1,0 +1,18 @@
+.index{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: url(https://static.jkchao.cn/main_bg.jpg) no-repeat 20% 20%;
+  background-size: cover;
+  p{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    a{
+      color: #fff;
+    font-weight: 600;
+    }
+  }
+}

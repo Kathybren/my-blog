@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import './index.scss'
 
 class Header extends Component {
     render() {
       return (
-        <div>
+        <div className="comHeader">
         header
         </div>
       )

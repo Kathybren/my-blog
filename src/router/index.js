@@ -15,8 +15,8 @@ const Router = () => {
   return(
     <BrowserRouter>
     <div>
-      <Route path="/" exact component = {getComponent('home')}></Route> 
-      <Route path="/detail" component = {getComponent('detail')}></Route> 
+      <Route path="/" exact component = {getComponent('index')}></Route> 
+      <Route path="/home" component = {getComponent('home')}></Route> 
     </div>
     </BrowserRouter>
   )

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux'
 import store from './store'
-import Header from './components/header'
 import Router from './router/index'
 
 class App extends Component {
@@ -9,7 +8,6 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div>
-          <Header/>
           <Router/>
         </div>
       </Provider>
