@@ -1,5 +1,5 @@
-import {  combineReducers } from 'redux'
-import hreaderReducer from '../components/header/store/reducer'
+import { combineReducers } from 'redux-immutable'
+import codeReducer from '../pages/code/store/reducer'
 export default combineReducers({
-    header: hreaderReducer
+    code: codeReducer
 })
