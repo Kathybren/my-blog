@@ -16,9 +16,11 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Header/>
+        <Header />
         <Route path="/home/code" exact component = {getComponent('code')}></Route> 
-        <Route path="/home/think" component = {getComponent('think')}></Route> 
+        <Route path="/home/think" exact component = {getComponent('think')}></Route> 
+        <Route path="/home/study" exact component = {getComponent('study')}></Route> 
+        <Route path="/home/detail/:id" exact component = {getComponent('detail')}></Route> 
       </div>
     )
   }

@@ -8,7 +8,7 @@ const Home = () => {
       <p>
         <Link to="/home/code">码农</Link>
         <Link to="/home/think">感悟</Link>
-        <Link to="/code">学习</Link>
+        <Link to="/home/study">学习</Link>
       </p>
     </div>
   )

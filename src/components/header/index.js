@@ -14,7 +14,7 @@ class Header extends Component {
             <div className="center">
               <Link to="/home/code">码农</Link>
               <Link to="/home/think">感悟</Link>
-              <Link to="/code">学习</Link>
+              <Link to="/home/study">学习</Link>
             </div>
             <div className="right">
               子不语

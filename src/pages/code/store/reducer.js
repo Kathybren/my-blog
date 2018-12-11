@@ -5,7 +5,6 @@ const defaultState = fromJS({
   list: []
 })
 export default (state = defaultState, action) => {
-  console.log(action)
   switch (action.type) {
     case actionTypes.GET_LIST: 
       return state.set('list', action.data)
