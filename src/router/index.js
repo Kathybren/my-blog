@@ -14,10 +14,10 @@ const getComponent = (name) => {
 const Router = () => {
   return(
     <BrowserRouter>
-    <div>
-      <Route path="/" exact component = {getComponent('index')}></Route> 
-      <Route path="/home" component = {getComponent('home')}></Route> 
-    </div>
+      <div>
+        <Route path="/" exact component = {getComponent('index')}></Route> 
+        <Route path="/home" component = {getComponent('home')}></Route> 
+      </div>
     </BrowserRouter>
   )
 }
