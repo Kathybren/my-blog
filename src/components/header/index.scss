@@ -4,16 +4,31 @@
   // background-color: #fafafa;
   border-bottom: 1px solid rgba(0,0,0,.0975);
   line-height: 70px;
-  min-width: 1200px;
+  min-width: 800px;
+  overflow: hidden;
   .headerContent{
-    width: 1200px;
+    width: 800px;
     margin: 0 auto;
+    a{
+      color: #909090;
+      margin-left: 30px;
+      font-size: 20px;
+    }
+    color: #909090;
     .left{
       float: left;
+      img{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+      }
     }
     .center{
       float: left;
-      margin-left: 400px;
+      margin-left: 200px;
+      .selected{
+        color: red;
+      }
     }
     .right{
       float: right;

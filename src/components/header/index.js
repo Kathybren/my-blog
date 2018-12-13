@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import Logo from '../../common/img/logo.jpeg'
 import './index.scss'
 
 class Header extends Component {
@@ -9,15 +10,14 @@ class Header extends Component {
         <div className="comHeader">
           <div className="headerContent">
             <div className="left">
-              子不语
+              <img src={Logo} alt="logo"/>
             </div>
             <div className="center">
-              <Link to="/home/code">码农</Link>
-              <Link to="/home/think">感悟</Link>
-              <Link to="/home/study">学习</Link>
+              <NavLink exact to="/home/code" activeClassName="selected">码农</NavLink>
+              <NavLink to="/home/think" activeClassName="selected">感悟</NavLink>
+              <NavLink to="/home/study" activeClassName="selected">学习</NavLink>
             </div>
             <div className="right">
-              子不语
             </div>
           </div>
         </div>

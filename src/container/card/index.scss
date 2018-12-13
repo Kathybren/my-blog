@@ -1,0 +1,27 @@
+.cardCom{
+  overflow: hidden;
+  padding: 10px 20px;
+  img{
+    height: 150px;
+    width: 758px;
+  }
+  .title{
+    padding: 15px 0;
+    overflow: hidden;
+    p{
+      float: left;
+      font-size: 18px;
+      color: #333;
+    }
+    div{
+      float: right;
+      color: #555;
+      font-size: 14px;
+    }
+  }
+  .descripe{
+    color: #909399;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
