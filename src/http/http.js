@@ -1,7 +1,9 @@
 import axios from 'axios'
 import qs from 'qs'
+const baseURL = process.env.REACT_APP_API;
 axios.defaults.timeout = 50000
-let baseURL = process.env.REACT_APP_API;
+axios.defaults.baseURL = baseURL
+console.log(axios.defaults)
 
 // http请求拦截器
 axios.interceptors.request.use(config => {

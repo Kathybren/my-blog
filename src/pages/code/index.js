@@ -3,10 +3,13 @@ import { connect } from 'react-redux'
 import * as actionCreators from './store/actionCreators'
 import Card from './components/card'
 import './index.scss'
+import {login} from '../../api/user'
 
 class Code extends Component {
   componentDidMount() {
-    this.props.getInit()
+    login().then(res => {
+      console.log(res)
+    })
   }
   render() {
     return (
