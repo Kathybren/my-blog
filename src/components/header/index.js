@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
 import { NavLink } from 'react-router-dom'
 import Logo from '../../common/img/logo.jpeg'
 import './index.scss'
@@ -24,14 +24,14 @@ class Header extends Component {
       )
     }
 }
-const mapStateToProps = (state) => {
-  return {
+// const mapStateToProps = (state) => {
+//   return {
 
-  }
-}
-const mapDispathToProps = (dispatch) => {
-  return {
+//   }
+// }
+// const mapDispathToProps = (dispatch) => {
+//   return {
 
-  }
-}
-export default connect(mapStateToProps, mapDispathToProps)(Header)
+//   }
+// }
+export default Header
